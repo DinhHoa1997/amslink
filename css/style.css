@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.6;
+  color: #21285b;
+  scroll-behavior: smooth;
+  font-family: Averta;
+}
+.c,
+.c5,
+.c10,
+.c15,
+.c20,
+.c30
+{
+  clear: both;
+}
+
+
+.c20 {
+  height: 20px;
+}
+
+.c30 {
+  height: 30px;
+}
+
+.header-right
+{
+  text-align: right;
+}
+header
+{
+  padding: 30px 0px;
+}
+.homecat-title
+{
+  text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+  color: #21285b;
+  font-weight: 800;
+  font-family: Averta-B;
+  line-height: 0.9;
+}
+.subcat-title
+{
+  color: #21285b;
+  font-weight: 800;
+  font-family: Averta-B;
+  line-height: 1;
+  font-size: 50px;
+  text-align: center;
+}
+.certify
+{
+font-size: 30px;
+color: #4e4d50;
+font-family: Averta-B;
+text-align: center;
+line-height: 1;
+}
+.certify-name
+{
+font-size: 80px;
+color: #21285b;
+font-family: SVN;
+text-align: center;
+line-height: 1;
+letter-spacing: 2px;
+}
+.attended
+{
+font-size: 32px;
+color: #4e4d50;
+font-family: Averta-B;
+text-align: center;
+}
+.attended-name
+{
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+color: #ffffff;
+font-family: Averta-B;
+background-image: url(/background/bg_attended.png);
+background-size: 100% 100%;
+padding: 5px;
+}
+.attended-name-intro{
+text-transform: initial;
+line-height: 1;
+padding: 0px 0px 10px 0px;
+margin-top: -10px;
+font-family: Averta-R;
+}
+.attended-class
+{
+font-size: 32px;
+color: #21285b;
+font-family: Averta-B;
+text-align: center;
+}
+.attended-date  
+{
+font-size: 32px;
+color: #4e4d50;
+
+font-style: italic;
+font-family: Averta-B;
+text-align: center;
+}
+.level
+
+{
+text-align: center;
+font-size: 70px;
+text-transform: uppercase;
+font-family: Averta-B;
+color: #ec5125;
+}
+#page
+{
+  background-image: url(/uploaded/logo/bg-f.png);
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* #page::before{
+  content: "";
+  background-image: url(/uploaded/logo/bg.png);
+  position: absolute;
+  bottom: 0px;
+  height: 450px;
+  left: 0px;
+  width: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+} */
+.level-class span, .level-cef span{
+  
+  font-family:Averta-R;
+  font-size: 30px;
+  color:#4e4d50 ;
+}
+
+
+.level-item
+{
+  padding: 10px 0;
+  width: 14.25%;
+  text-align: center;
+  color: #FFF;
+  font-family: Averta-B;
+  border-right: 1px solid #FFF;
+  max-width: 290px;
+  
+}
+.level-list
+{
+  display: flex;
+}
+
+.footer-left
+{
+  position: relative;
+  font-size: 25px;
+  color: #4e4d50;
+}
+.footer-left::before{
+  content: "";
+  width: 200px;
+  height: 1px;
+  background-color: #616161;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+}
+.footer-right
+{
+  text-align: right;
+  color: #4e4d50;
+  position: relative;
+}
+.footer-right--name
+{
+  text-align: right;
+  color: #4e4d50;
+  font-family: Averta-B;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+.footer-right--possition
+{
+  padding-right: 60px;
+  line-height: 1;
+  font-size: 24px;
+  font-family: Averta-R;
+  
+}
+.footer-dau
+{
+  margin-top: -10px;
+}
+.footer-chuky
+{
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.footer-info
+{
+  font-family: Averta-R;
+}

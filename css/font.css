@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family:Averta-B;
+    src: url('fonts/Averta/AVERTA-EXTRABOLD.OTF');
+    font-display: swap;
+    font-weight: normal;
+}
+@font-face {
+    font-family:Averta-R;
+    src: url('fonts/Averta/AVERTA-SEMIBOLD.OTF');
+    font-display: swap;
+    font-weight: normal;
+}
+@font-face {
+    font-family:Averta;
+    src: url('fonts/Averta/AVERTA-LIGHT.OTF');
+    font-display: swap;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:SVN;
+    src: url('fonts/SVN-Morva/SVN-MORVA.TTF');
+    font-display: swap;
+    font-weight: normal;
+}
+
+

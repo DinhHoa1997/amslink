@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>bndmedia</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="theme-color" content="#0099ff" />
+  <meta http-equiv="Content-Language" content="VN" />
+  <meta name="description" content="bndmedia" />
+  <meta name="keywords" content="" />
+  <meta property="og:url" name="og:url" content="" data-app />
+  <meta property="og:type" name="og:type" content="website" data-app />
+  <meta property="og:description" name="og:description" content="bndmedia" data-app />
+  <meta property="og:title" name="og:title" content="bndmedia" data-app />
+  <meta property="og:image" name="og:image" content="http://tonvietphap.24h.co/uploaded/logo/logo.png" data-app />
+
+  <link href="/favicon.png" rel="shortcut icon" />
+
+
+  <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="/css/font.css">
+
+
+
+</head>
+<style>
+    
+    * {
+    margin: 0px;
+    padding: 0px;
+  }
+  html,
+  body {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.6;
+    color: #21285b;
+    scroll-behavior: smooth;
+    font-family: Averta;
+    max-width: 1600px;
+    margin: auto;
+  }
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between /* space-around;*/;
+}
+.cell-1-6 {
+    width: 17.5%;
+}
+.cell-5-6 {
+    width: 81%;
+}
+.cell-1-2 {
+    width: 49%;
+}
+[class*='cell-'] {
+    float: left;
+}
+  .grid{
+    max-width: 1300px;
+    margin: auto;
+  }
+  .c,
+.c5,
+.c10,
+.c15,
+.c20,
+.c30
+ {
+    clear: both;
+}
+
+
+
+.c10 {
+    height: 10px;
+}
+
+
+
+.c20 {
+    height: 20px;
+}
+
+.c30 {
+    height: 30px;
+}
+
+.header-right
+{
+  text-align: right;
+}
+header
+{
+  padding: 30px 0px;
+}
+.homecat-title
+{
+  text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+  color: #21285b;
+  font-weight: 800;
+  font-family: Averta-B;
+  line-height: 0.9;
+}
+.subcat-title
+{
+  color: #21285b;
+  font-weight: 800;
+  font-family: Averta-B;
+  line-height: 1;
+  font-size: 50px;
+  text-align: center;
+}
+.certify
+{
+font-size: 30px;
+color: #4e4d50;
+font-family: Averta-B;
+text-align: center;
+line-height: 1;
+}
+.certify-name
+{
+font-size: 80px;
+color: #21285b;
+font-family: SVN;
+text-align: center;
+line-height: 1;
+letter-spacing: 2px;
+}
+.attended
+{
+font-size: 32px;
+color: #4e4d50;
+font-family: Averta-B;
+text-align: center;
+}
+.attended-name
+{
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+color: #ffffff;
+font-family: Averta-B;
+background-image: url(/background/bg_attended.png);
+ width:100%;
+background-size: 100% 100%;
+padding: 5px;
+}
+.attended-name-intro{
+text-transform: initial;
+line-height: 1;
+padding: 0px 0px 10px 0px;
+margin-top: -10px;
+font-family: Averta-R;
+}
+.attended-class
+{
+font-size: 32px;
+color: #21285b;
+font-family: Averta-B;
+text-align: center;
+}
+.attended-date  
+{
+font-size: 32px;
+color: #4e4d50;
+
+font-style: italic;
+font-family: Averta-B;
+text-align: center;
+}
+.level
+
+{
+text-align: center;
+font-size: 70px;
+text-transform: uppercase;
+font-family: Averta-B;
+color: #ec5125;
+}
+#page
+{
+  background-image: url(/uploaded/logo/bg-f.png);
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* #page::before{
+  content: "";
+  background-image: url(/uploaded/logo/bg.png);
+  position: absolute;
+  bottom: 0px;
+  height: 450px;
+  left: 0px;
+  width: 100%;
+  background-position: center center;
+  background-size: 100% 100%;
+} */
+.level-class span, .level-cef span{
+  
+  font-family:Averta-R;
+  font-size: 30px;
+  color:#4e4d50 ;
+}
+
+
+.level-item
+{
+  padding: 10px 0;
+  width: 14.25%;
+  text-align: center;
+  color: #FFF;
+  font-family: Averta-B;
+  border-right: 1px solid #FFF;
+  max-width: 290px;
+  
+}
+.level-list
+{
+  display: flex;
+}
+
+.footer-left
+{
+  position: relative;
+  font-size: 25px;
+  color: #4e4d50;
+}
+.footer-left::before{
+  content: "";
+  width: 200px;
+  height: 1px;
+  background-color: #616161;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+}
+.footer-right
+{
+  text-align: right;
+  color: #4e4d50;
+  position: relative;
+}
+.footer-right--name
+{
+  text-align: right;
+  color: #4e4d50;
+  font-family: Averta-B;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+.footer-right--possition
+{
+  padding-right: 60px;
+  line-height: 1;
+  font-size: 24px;
+  font-family: Averta-R;
+  
+}
+.footer-dau
+{
+  margin-top: -10px;
+}
+.footer-chuky
+{
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.footer-info
+{
+  font-family: Averta-R;
+}
+</style>
+<body>
+
+<div id="page">
+  <div class="grid">
+    <header>
+      <div class="flex-container align-center">
+          <div class="cell-1-2">
+                <div class="logo"> 
+                    <a href="#">
+                      <img src="/uploaded/logo/logo.png" alt="">
+                    </a>
+                </div>       
+          </div>
+          <div class="cell-1-2">
+              <div class="header-right">
+                  <a href="#">
+                      <img src="/uploaded/logo/header-right.png" alt="">
+                  </a>
+              </div>
+          </div>
+      </div>
+    </header>
+    <div class="content">
+        <div class="c30"></div>
+
+         <div class="homecat-title">
+            Certificate
+        </div>    
+        <div class="subcat-title">
+            of Attendance   
+        </div>  
+        <div class="c30"></div>
+        <div class="c20"></div>
+        <div class="c30"></div>
+        <div class="certify">
+          This is to certify that
+        </div>
+        <div class="c10"></div>
+        <div class="certify-name">
+          [Fullname]
+        </div>
+        <div class="c20"></div>
+        <div class="attended">
+          Attended in the
+        </div>
+        <div class="attended-name">
+            English grammar & vocabulary course 
+          <div class="attended-name-intro">for Secondary Students</div>  
+        </div>
+        <div class="c5"></div>
+        <div class="attended-class">
+            [Class]
+        </div>
+        <div class="c10"></div>
+        <div class="attended-date">
+          From [__] / [__] / [____] to [__] / [__] /[____]
+        </div>
+        <div class="c30"></div>
+        <div class="level">
+          Level [...]
+        </div>
+        <div class="c30"></div>
+        <div class="level-class flex-container">
+            <div class="cell-1-6">
+              <span>Amslink Class: </span>
+            </div>
+            <div class="cell-5-6">
+              <div class="level-list">
+                  
+                <div class="level-item" style="background-color: #21285B;">
+                    Grade 6-DK
+               </div>
+                <div class="level-item" style="background-color: #F8AC40;">
+                    Grade 7-DK
+                </div>
+                <div class="level-item" style=" background-color: #FF971A;">
+                    Grade 8-DK
+                </div>
+                <div class="level-item" style="font-size: 16px; padding: 0px;background-color: #FF971A">
+                    Grade 9  <br>
+                 
+Exam Practice
+                </div>
+                <div class="level-item" style="background-color: #F69021;" >
+                    Grade 9-DK
+                </div>
+               
+            </div>
+            </div>
+        </div>
+        <div class="c20"></div>
+        <div class="level-class flex-container">
+            <div class="cell-1-6">
+                <span></span>
+            </div>
+            <div class="cell-5-6">
+              <div class="level-list flex-flex-end">
+                
+             
+                <div class="level-item" style="background-color: #F8AC40;">
+                    Grade 6-CC
+                </div>
+                <div class="level-item"  style="width:43%; max-width: 43%; background-color: #FF971A;">
+                    Grade 7-CC
+                </div>
+                <div class="level-item" style="background-color: #F48320;">
+                    Grade 8-CC
+                </div>
+                <div class="level-item" style="background-color: #EF7030;">
+                    Grade 9-CC2
+                </div>
+              
+               
+                
+            </div>
+            </div>
+        </div>
+        <div class="c20"></div>
+        <div class="level-cef flex-container">
+          <div class="cell-1-6">
+            <span>Amslink Class: </span>
+          </div>
+          <div class="cell-5-6">
+            <div class="level-list">
+                
+             
+              <div class="level-item" style="background-color: #21285B;" >
+               A1
+              </div>
+              <div class="level-item" style="background-color: #F8AC40;"  >
+                A2+
+              </div>
+              <div class="level-item" style="background-color: #FF971A;    width: 29%; max-width: 29%;">
+               B1
+              </div>
+              <div class="level-item" style="background-color: #F69021;">
+                B1+
+              </div>
+              <div class="level-item" style="background-color: #F37A20;">
+              B2
+              </div>
+              <div class="level-item" style="background-color: #EF7030;">
+                B2+
+                </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+
+    <div class="footer">
+     
+        <div class="flex-container">
+            <div class="cell-1-2">
+                <div class="footer-left">
+                  <div class="footer-info">
+                    Place of Issue: [Center name]
+                  </div>
+                  <div class="footer-info">
+                    Date of Issue: [Date]
+                  </div>
+                  <div class="footer-info">
+                    Certificate Number: [Number]
+                  </div>
+                
+                </div>
+               
+            </div>
+            <div class="cell-1-2">
+                <div class="footer-right">
+                    <div class="footer-right--name">
+                      Dinh Quynh Anh
+                    </div>
+                    <div class="footer-right--possition">
+                      Director
+                    </div>
+                    <div class="footer-dau">
+                        <img src="/uploaded/logo/dau.png" alt="">
+                    </div>
+                    <div class="footer-chuky">
+                        <img src="/uploaded/logo/chuky.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+    <div class="c30"></div>
+  </div>
+ 
+</div>
+
+
+
+
+  <!-- <div id="button-btt">
+    <a href="#"><i class="fa fa-chevron-up"></i> <span>Back to top</span></a>
+  </div> -->
+
+ 
+
+  
+</body>
+
+</html>
